@@ -25,3 +25,8 @@ body {
 .japanese {
   font-family: "Noto Sans Japanese", sans-serif;
 }
+
+nav {
+  color: #005e76;
+  text-decoration: none;
+}

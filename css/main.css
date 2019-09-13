@@ -11,3 +11,8 @@ nav a {
   text-decoration: none;
   border-bottom: .1em solid #0084a6;
 }
+
+.heading {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}

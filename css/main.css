@@ -22,6 +22,11 @@ nav a {
   border: 1px solid #0084a6;
 }
 
+.btn:hover {
+  background-color: #8bc9d9;
+  color: #000;
+}
+
 footer {
   border-top: 2px solid #e2e2e2;
 }

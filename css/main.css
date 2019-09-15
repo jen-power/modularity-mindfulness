@@ -29,3 +29,11 @@ footer {
 small {
   color: #a2a2a2;
 }
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    text-align: right;
+  }
+
+}

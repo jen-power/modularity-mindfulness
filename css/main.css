@@ -25,3 +25,7 @@ nav a {
 footer {
   border-top: 2px solid #e2e2e2;
 }
+
+small {
+  color: #a2a2a2;
+}

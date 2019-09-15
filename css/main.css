@@ -8,9 +8,13 @@ html {
 }
 
 nav a {
-  color: #005e76;
+  color: #0084a6;
   text-decoration: none;
   border-bottom: .1em solid #0084a6;
+}
+
+nav a:hover {
+  color: #005e76;
 }
 
 .heading {

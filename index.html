@@ -12,14 +12,20 @@
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
 </head>
 <body>
-  <header class="grid grid-middle pad-t-1-2">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="grid grid-middle pad-t-1-2" role="banner">
     <div class="unit xs-1 l-1-4 push-0">
       <h1 class="text-center push-1-2">
         <i class="yotta not-italic japanese" lang="ja">枯山水</i>
         <span class="kilo block">Rock Gardens</span>
       </h1>
     </div>
-    <nav class="unit xs-1 l-3-4 nav text-center pad-t-1-2 pad-b-1-2">
+    <nav class="unit xs-1 l-3-4 nav text-center pad-t-1-2 pad-b-1-2" role="navigation" id="nav">
       <ul class="list-group list-group-inline mega push-1-2">
         <li class="push-r-1-2"><a class="pad-b-1-8" href="#">Viewing</a></li>
         <li class="push-r-1-2"><a class="pad-b-1-8" href="#">Gravel</a></li>
@@ -27,7 +33,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main role="main" id="main">
     <div class="banner">
       <img class="img-flex push-2" src="images/banner.svg" alt="trees">
     </div>
@@ -69,7 +75,7 @@
     </div>
   </main>
 
-  <footer class="pad-t-1-2 push-1-2">
+  <footer class="pad-t-1-2 push-1-2" role="contentinfo">
     <small class="nano push-r-1-4">© 794 Heian Period</small>
   </footer>
 </body>

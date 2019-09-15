@@ -16,3 +16,8 @@ nav a {
   border-top: 2px solid #e2e2e2;
   border-bottom: 2px solid #e2e2e2;
 }
+
+.btn-ghost {
+  color: #005e76;
+  border: 1px solid #0084a6;
+}
